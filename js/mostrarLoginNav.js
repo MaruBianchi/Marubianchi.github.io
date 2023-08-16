@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", function() {
         <input type="image" src="./foto-login-perfil.png" id="perfil" class="foto-perfil-login">
         </input>
         <div class="tarjeta" id="tarjeta">
-            <h5>Nombre Apellido</h5>
             <p id="email-p">${localStorage.getItem("email")}</p>
             <p id="salir">logOut</p>
         </div>
