@@ -246,6 +246,7 @@ main {
   width: 100%;
   z-index: 1000;
 }
+
 main {
   margin-top: 50px;
 }
@@ -295,5 +296,6 @@ main {
 border-style: inset;
   border-radius: 5px;
   text-align: center;
+  cursor:pointer;
 }
 
