@@ -4,7 +4,7 @@
     font-family: 'Merriweather', serif;
 }
 body{
-    background-image: url(/img/3d-illustration-smartphone-with-products-coming-out-screen-online-shopping-e-commerce-concept\ -\ Copy.jpg);
+    background-image: url(/img/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -16,19 +16,20 @@ body{
     height: 100%;
     display: flex;
     margin-left: 10%;
-    align-items: center;
+    margin-bottom: 7%;
+    align-items: flex-end
 }
 .formulario_login{
     background-color: rgba(255, 255, 255, 0.434);
-    width: 350px;
+    width: 420px;
     border-radius: 15px;
     border-style: inset;
     border-color:  rgba(207, 207, 207, 0.387);
     padding: 20px;
+    height: 370px;
 }
 .formulario{
     display: flex;
-    max-width: 90%;
     max-width: 400px;
     border-radius: 5% ;
     padding: 30px;
@@ -50,7 +51,6 @@ row-gap: 20px;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin: 50px;
 }
 .formulario_login h1{
     font-size: 40px;
