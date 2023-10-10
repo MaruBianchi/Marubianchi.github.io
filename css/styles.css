@@ -158,11 +158,12 @@ height: 423px;
   font-weight: bold;
 }
 
-.m-3 {
+.index-card-title {
   display: block;
   margin: auto;
   margin-bottom: 10px;
-  padding: 8px 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border: 1px solid rgba(255, 255, 255, 0.75);
   border-radius: 25px 0;
   text-align: center;
@@ -171,6 +172,7 @@ height: 423px;
   background: rgb(255, 177, 255);
   background: linear-gradient(90deg, rgba(255, 177, 255, 1) 0%, rgba(218, 165, 255, 1) 50%, rgba(168, 142, 255, 1) 100%);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  width: 100%;
 }
 
 
