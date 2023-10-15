@@ -32,7 +32,7 @@ const cargarInfoProducto = (product, productCategoryName) => {
 
   //   return function () {
   //     // Elimina todas las imágenes actuales del carrusel
-  //     carruselProduct.innerHTML = "";
+  //     carruselProduct.innerHTML = "";   
 
   //     // Crea una nueva imagen y la agrega al carrusel
   //     const nuevaImagen = document.createElement("img");
@@ -246,7 +246,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   //acá agrega el producto comprado al localstorage
-  agregarButton.addEventListener("click", async () => {
+  agregarAlCarritoButton.addEventListener("click", async () => {
     let productosCarrito =
       JSON.parse(localStorage.getItem("productosCarrito")) || [];
     const productId = product.id;
