@@ -209,23 +209,10 @@
 .row{
   margin-top: 2% !important;
 }
-.navbar {
-  padding: 10px 20px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-}
 
 nav a {
   text-decoration: none;
 }
-
-.navbar ul li {
-  cursor: pointer;
-}
-
-
 
 footer {
   background-color: #e3e0ff;
@@ -354,7 +341,6 @@ footer p {
 }
 
 .navbar {
-  padding: 10px 20px;
   position: fixed;
   top: 0;
   width: 100%;
