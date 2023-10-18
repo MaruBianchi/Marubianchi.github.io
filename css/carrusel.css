@@ -1,0 +1,76 @@
+.carrusel-container {
+  max-height: 400px;
+  position: relative;
+  padding-top: 48px;
+  text-align: center;
+}
+
+.carrusel-container ul{
+  padding: 0;
+}
+
+.carrusel-elemento {
+  display: none;
+}
+
+.carrusel-activo {
+  display: block !important;
+}
+
+.carrusel-img {
+  align-items: center;
+  text-align: center;
+  max-height: 300px;
+}
+
+.carrusel-btn {
+  all: unset;
+  outline: revert;
+  cursor: pointer;
+  position: absolute;
+  padding: 16px 8px 8px 8px;
+  background-color: rgba(0,0,0,0.5);
+  transition: background-color 0.2s linear;
+}
+
+.carrusel-btn:hover {
+  background-color: rgba(0,0,0,0.6);
+}
+
+#carruselFlechaIzquierda {
+  top: 50%;
+  left: 0;
+  transform: translate(-50% -50%);
+  border-radius: 0 10px 10px 0;
+}
+
+#carruselFlechaDerecha {
+  top: 50%;
+  right: 0;
+  transform: translate(-50% -50%);
+  border-radius: 10px 0 0 10px;
+
+}
+
+.flecha {
+  display: inline-block;
+  border: solid #fff;
+  border-width: 0 6px 6px 0;
+  padding: 6px;
+}
+
+.flecha-derecha {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.flecha-derecha:active {
+  transform: rotate(-45deg) scale(0.95);
+}
+
+.flecha-izquierda {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.flecha-izquierda:active {
+  transform: rotate(135deg) scale(0.95);
+}
