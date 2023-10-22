@@ -1,8 +1,11 @@
 .carrusel-container {
-  max-height: 400px;
   position: relative;
+  max-height: max-content;
+  max-width: max-content;
   padding-top: 48px;
   text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .carrusel-container ul{
@@ -20,7 +23,8 @@
 .carrusel-img {
   align-items: center;
   text-align: center;
-  max-height: 300px;
+  max-height: 360px;
+  max-width: 100%;
 }
 
 .carrusel-btn {
